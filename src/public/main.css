@@ -13,17 +13,29 @@
     margin-bottom: 0px;
   }
 
+  
+
   .navbar{
-      background-color:  rgb(43, 47, 47);
+      display: flex;
+      /* background-color: blue; */
+       background-color:  rgb(43, 47, 47);
       height: 90px;
+      justify-content: space-between;
+      width: 100%;
+
      }
      
-     .navbar > img {
-
+     .navbar > a  > img {
+        /* background-color: brown; */
         height:80px ;
         width:200px ;
      }
     
+     /* #navbarSupportedContent{
+   
+     padding-left: 700px;
+    } */
+
     .navbar-nav >.nav-item >.nav-link{
 
     color: rgb(255, 255, 255);
@@ -91,11 +103,11 @@
       
     padding: 10px;
     background-color: rgb(0, 0, 0);
-    height: 3900px;
-    margin-bottom: 10px;
+    height: 4050px;
+   
+   
   }
-
-   .title-pro-serv > h1 {
+  .title-pro-serv > h1 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -156,9 +168,8 @@
 
  .container-padre-servicios{
 
-    padding: 10px;
     background-color: rgb(58, 58, 58);
-    height: 1690px;
+    height: 1900px;
     margin-bottom: 10px;
 
 
@@ -167,7 +178,7 @@
 
  
  .container-padre-servicios > .card > .img-serv-baner{
-
+    margin-top: 5px;
     width:90%;
     height:600px;
     margin-left: 70px;

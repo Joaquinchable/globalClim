@@ -21,41 +21,48 @@
          
         <!-- nav -->
         <div class="fixed-top">
-    
+                  <nav class="navbar navbar-expand-lg navbar-light ">
 
-
-
-
-
-                <nav class="navbar navbar-expand-lg navbar-light ">
-                        <img src="./resources/Logo.svg" alt="Logo"  />
+                
+                            
+                            <a href="#s0">  <img src="./resources/Logo.svg" alt="Logo"/>    </a>
+                    
                        
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                       
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                          <ul class="navbar-nav">
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto ">
                             <li class="nav-item ">
-                              <a class="nav-link" href="#s1">Global Clime </a>
+                              <a class="nav-link"  href="#s1">GLobal Clim</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Productos
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#s2">Meteorológia</a>
+                                <a class="dropdown-item" href="#s3">Energias Renovables</a>
+                                <a class="dropdown-item" href="#s4">Otros</a>
+                              </div>
+                              <li class="nav-item">
+                                    <a class="nav-link" href="#s5">Servicios</a>
+                                  </li>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#s2">Productos</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#s3">Servicios</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link " href="#s4" >Contacto</a>
+                              <a class="nav-link" href="#s6" >Contacto</a>
                             </li>
                           </ul>
+                        
                         </div>
-          
- 
-    
-        </div>
+                      </nav>
+
+                  </div>
 
         <!-- carousel -->
-        <div class="carusel">
+        <div class="carusel" id="s0">
            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -90,7 +97,7 @@
  
     <!-- section - Api del clima - Baner Golbal CLim--> 
    
-     <section class="api-baner-container-padre">
+     <section class="api-baner-container-padre" id="s1">
         <!-- api-clima -->
         
     <div class="api-clima">
@@ -104,11 +111,19 @@
         
     <!-- baner-1 GLobal Clime -->
     <img class="baner" src="./resources/Frame9.png" alt="Baner Global Clime">
+
+
+  
      </section>
+
+     
    
     <!-- section - productos  -->     
-
+     
     <section class="container-padre-productos">
+
+    <span id="s2""></span>
+     <br><br><br><br>
 
     <div class="card">
             <img src="./resources/Meteo.png" alt="Baner Meteorológia" >
@@ -174,6 +189,9 @@
 
         </div>
 
+    <span id="s3""></span>
+     <br><br><br><br>
+
     <div class="card">
             <img src="./resources/energiaR.png" alt=" Baner Energias Renovables" width="100%" height="700">
             <div class="title-pro-serv">
@@ -184,7 +202,7 @@
                  
 
                 <div>
-                    <img src="./resources/davis6.jpg" class="card-img-top rounded-pill shadow p-1 mb-5 bg-white rounded"  />
+                    <img src="./resources/davis6.jpg" class="card-img-top shadow p-1 mb-5 bg-white rounded"  />
                     <br>
 
                     <div class="title-secundario">
@@ -193,7 +211,7 @@
                 </div>
 
                 <div>
-                    <img src="./resources/ER2.jpg" class="card-img-top  shadow p-1 mb-5 bg-white rounded" alt="..." />
+                    <img src="./resources/ER2.jpg" class="card-img-top  rounded-pill  shadow p-1 mb-5 bg-white rounded" alt="..." />
                     <br>
 
                     <div class="title-secundario">
@@ -207,7 +225,7 @@
 
             <div class="card-body">
                     <div>
-                            <img src="./resources/panelsolar.png" class="card-img-top rounded-pill shadow p-1 mb-5 bg-white rounded" alt="..." />
+                            <img src="./resources/panelsolar.png" class="card-img-top  shadow p-1 mb-5 bg-white rounded" alt="..." />
                             <br>
                           <div class="title-secundario">
                                 <h5 class="card-title">Paneles Solares</h5>
@@ -228,9 +246,10 @@
 
         </div>
 
-        <br>
+     <span id="s4""></span>
+     <br><br><br><br>
         
-    <div class="card">
+    <div class="card" >
             <div class="title-pro-serv">
                     <h1>Otros</h1>
                 </div>
@@ -273,10 +292,11 @@
    
     <!-- section - Servicios -->
 
-    <section class="container-padre-servicios">
+    <section class="container-padre-servicios" >
 
        
-        
+         <span id="s5""></span>
+            <br><br><br><br>
         <div class="card">
 
                 <img class="img-serv-baner" src="./resources/servicios.png" alt="Baner Servicios"  >
@@ -351,6 +371,9 @@
     </section>
 
     <!-- Contacto NodeJs Express -->
+
+    <span id="s6""></span>
+    <br><br><br><br>
 
     <section class="container-padre-form">
            
